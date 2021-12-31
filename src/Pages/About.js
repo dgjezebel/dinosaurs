@@ -6,6 +6,7 @@ export default class Menu extends React.Component {
         return(
             <div>
                 <Header/>
+                <div></div>
             </div>
         )
 
