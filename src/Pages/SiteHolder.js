@@ -1,6 +1,5 @@
 import React from 'react';
-import ablogo from '../Images/ablogo.jpg'
-import ReactDOM from 'react-dom';
+import ablogo from '../Images/ablogo.png'
 import './siteholder.css'
 
 export default function SiteHolder(){
@@ -9,7 +8,14 @@ export default function SiteHolder(){
             <img className='siteholderimg' src={ablogo} alt='ab catering logo'></img>
             
             <div className='center'>
-                <h2>Coming soon to a dining room near you</h2>
+                <h2>
+                    Now serving Philadelphia and the Tri-State area
+                    </h2>
+                <h2>
+                    Phone number: (267)351-0962
+                    <br/>
+                    Email: abcatering@gmail.com
+                </h2>
             </div>
         </div>
     )

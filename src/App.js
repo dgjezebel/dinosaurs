@@ -1,12 +1,23 @@
+import React from "react";
 import './App.css';
-import Header from './Components/Header'
+import { Route, Routes } from 'react-router-dom';
 import SiteHolder from './Pages/SiteHolder';
-function App() {
-  return (
-    <div>
-      <SiteHolder/>
-    </div>
-  );
-}
+import About from './Pages/About';
+import Menu from './Pages/Menu';
+import Contact from './Pages/Contact';
+import Header from "./Components/Header";
 
-export default App;
+export default function App(){
+
+    return (
+      <div>
+        <Header />
+          <Routes>
+            <Route path="/" element={<SiteHolder />} />
+            <Route path="/menu" element={<Menu />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+      </div>
+  );
+  }

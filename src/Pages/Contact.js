@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default class Menu extends React.Component {
+export default class Contact extends React.Component {
     render(){
         return(
             <div>
-                About info goes here
+                <div>Contact info will go here</div>
             </div>
         )
 
