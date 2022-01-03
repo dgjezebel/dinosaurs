@@ -60,4 +60,7 @@
         position: fixed;
         
     }
+    .navigation{
+        max-width: 80px;
+    }
 }

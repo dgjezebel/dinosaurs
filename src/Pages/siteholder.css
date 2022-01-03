@@ -18,3 +18,8 @@
 h2{
     text-align: center;
 }
+@media all and (max-width: 600px) {
+    .siteholderimg{
+        max-width: 300px;
+    }
+}
