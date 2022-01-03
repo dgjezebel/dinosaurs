@@ -1,6 +1,6 @@
 body { min-height: 100vh; }
 @media screen and (max-width:640px) {
-  html {
+  html, body {
          overflow-x: hidden;
      }
      main {
