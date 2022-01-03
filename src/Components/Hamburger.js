@@ -1,8 +1,8 @@
 import React from 'react'
-import './droppedMenu.css'
-import './header.css'
+import '../css/hamburger.css'
+import '../css/header.css'
 
-export default function DroppedMenu(){
+export default function Hamburger(){
     return(
         <>
                 <div>
