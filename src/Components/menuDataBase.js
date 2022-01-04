@@ -13,10 +13,25 @@ let entrees=[
 let sides=[
     'Baked Potato', 'Broccoli', 'Cauliflower', 'French Fries', 'Glazed Carrots', 'Green Beans', 'Macaroni & Cheese', 'Mashed Potatoes', 'Peas*', 'Rice Pilaf', 'Sweet Potato', 'Vegetable Medley', 'Fried Brussels Sprouts& Cheese'
 ]
+let kids=[
+    'Bagel Bites', 'Cheeseburgers', 'Chicken Fingers', 'Grilles Cheese', 'Hot Dogs', 'Pizza Rolls', 'Spaghetti'
+]
+
+let cakes=[
+    'Vanilla', 'Chocolate', 'Red Velvet', 'Coffee', 'Boston Cream', 'Cheesecake (+$5): Plain, Cherry, or Strawberry'
+]
+let pies=[
+    'Apple', 'Cherry', 'Coconut', 'Custard', 'Lemon', 'Lemon Meringue'
+]
+
 
 export {
     appetizers,
     salads,
     entrees,
-    sides
+    sides,
+    kids,
+    cakes,
+    pies,
+
 }

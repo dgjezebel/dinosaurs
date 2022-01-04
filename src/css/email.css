@@ -1,0 +1,36 @@
+.formholder{
+display: block;
+text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: auto;
+   
+}
+input{
+    font-size: 20px;
+}
+.inputs{
+    height: 30px;
+}
+
+textarea{
+    margin: 5px;
+    height: 100px;
+    font-size: 20px;
+}
+
+form div{
+    height: 30px;
+}
+.inputbox{
+    text-align: right;
+}
+.button{
+    width: 100px;
+    height: 25px;
+    margin-right: 5px;
+}

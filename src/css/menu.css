@@ -1,7 +1,32 @@
+.menudiv{
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
 p{
     text-align: center;
     margin: auto;
 }
-ul{
+h3{
     text-align: center;
+}
+ul{
+list-style-type: none;
+-webkit-columns: 2;
+-moz-columns: 2;
+columns: 2;
+list-style-position: inside;
+}
+ul li{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+@media screen and (max-width: 500px){
+    ul{
+        display: flex;
+        flex-direction: column;
+        list-style-position: inside;
+       
+        }
 }
