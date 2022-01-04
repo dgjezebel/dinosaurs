@@ -9,6 +9,7 @@ p{
 }
 h3{
     text-align: center;
+    margin: 5px;
 }
 ul{
 list-style-type: none;
@@ -16,6 +17,7 @@ list-style-type: none;
 -moz-columns: 2;
 columns: 2;
 list-style-position: inside;
+padding-left: 0;
 }
 ul li{
     float: left;
@@ -27,6 +29,5 @@ ul li{
         display: flex;
         flex-direction: column;
         list-style-position: inside;
-       
         }
 }

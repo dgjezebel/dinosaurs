@@ -94,12 +94,12 @@ export default class MenuInfo extends Component{
             <br/>
             <h3>Assorted Pastry Tray</h3>
             <p>Small  $20 | Large $40</p>
+            <br/>
             <h3>Cupcakes</h3>
             <p>One Dozen  $24 | Two Dozen $48</p>
             <p>Chocolate | Vanilla | Red Velvet</p>
             <br/>
             <h3>8" Cakes  $25</h3>
-            <br/>
                 {list(cakes)}
             <h3>Pies</h3>
             <p>8"  $10 | 10"  $14</p>

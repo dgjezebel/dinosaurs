@@ -1,36 +1,70 @@
 .formholder{
-display: block;
-text-align: center;
-}
-
+    display:flex;
+	justify-content: center;
+    align-items: center;
+    height: 80vh;
+}  
 form{
     display: flex;
     flex-direction: column;
-    max-width: 350px;
     margin: auto;
    
 }
 input{
-    font-size: 20px;
+    font-size: 15px;
+    padding-left:15px ;
 }
 .inputs{
+    border-width:0 0 1px 0; 
     height: 30px;
+    border-radius: 2px;
+    border-color: #b8b8b8;
+    width: 300px;
 }
+.inputs:focus{
+    background: rgb(199, 199, 199);
+    border-width: 0px;
+    outline: none;
+}
+
 
 textarea{
-    margin: 5px;
-    height: 100px;
-    font-size: 20px;
+    background: rgb(230, 230, 230);
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    height: 200px;
+    font-size: 15px;
+    padding-left:15px ;
+    padding-top: 10px;
+    width: 500px;
+}
+textarea:focus{
+    outline: none;
+    background: rgb(199, 199, 199);
 }
 
-form div{
-    height: 30px;
+.error{
+    height: 20px;
 }
 .inputbox{
-    text-align: right;
+    text-align: center;
+    margin: 10px;
+   
 }
 .button{
     width: 100px;
     height: 25px;
-    margin-right: 5px;
+    padding: 0;
+}
+
+@media all and (max-width: 500px){
+    textarea{
+        width: 200px;
+    }
+    .inputs{
+        height: 30px;
+        border-radius: 7px;
+        width: 200px;
+    }
 }

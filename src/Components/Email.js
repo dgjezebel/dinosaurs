@@ -20,11 +20,11 @@ export const ContactUs = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <div></div>
+      <div className='error'></div>
       <input className='inputs' type="text" name="user_name" placeholder='Name'/>
-      <div></div>
+      <div className='error'></div>
       <input className='inputs' type="email" name="user_email" placeholder='E-mail'/>
-      <div></div>
+      <div className='error'></div>
       <textarea name="message" placeholder='What can we do for you?'/>
       <div className='inputbox'><input  className='button'type="submit" value="Send"/></div>
     </form>
