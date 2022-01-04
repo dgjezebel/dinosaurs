@@ -14,7 +14,6 @@ export default function SiteHolder(){
                 <h2>
                     Phone number: (267)351-0962
                     <br/>
-                    <a href="mailto:jax.bishop.webdev@gmail.com?subject=We%20are%20interested!!">Contact</a>
                     Email: abcatering@gmail.com
                 </h2>
             </div>
