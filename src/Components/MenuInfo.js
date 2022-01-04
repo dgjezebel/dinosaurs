@@ -3,12 +3,11 @@ import { appetizers, salads, entrees, sides  } from './menuDataBase';
 
 export default class MenuInfo extends Component{
     render(){
-        console.log(appetizers[0].name)
-        
        function list(data) {
            const items = data;
            const listitem = items.map((data) =>
-           <li>{data}</li>);
+           
+           <li key={data}>{data}</li>);
            return(<ul>{listitem}</ul>)
        }
         return(<>
