@@ -12,9 +12,9 @@ export default function SiteHolder(){
                     Now serving Philadelphia and the Tri-State area
                     </h2>
                 <h2>
-                    Phone number: (267)351-0962
+                    Phone number: (215)792-2197
                     <br/>
-                    Email: abcatering@gmail.com
+                    Email: customerservice@ab-catering.com
                 </h2>
             </div>
         </div>

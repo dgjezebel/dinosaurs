@@ -1,5 +1,5 @@
 let appetizers=[
-'Deviled Eggs', 'Fried Ravioli*','Jalapeno Poppers*', 'Macaroni & Cheese Bites', 'Mini Quiche', 'Mozzarella Sticks*', 'Onion Rings', 'Pigs in a Blanket', 'Shrimp Coctail (+$10)', 'Stuffed Mushrooms', 'Swedish Meatballs'
+'Deviled Eggs', 'Fried Ravioli*','Jalapeno Poppers*', 'Macaroni & Cheese Bites', 'Mini Quiche', 'Mozzarella Sticks*', 'Onion Rings', 'Pigs in a Blanket', 'Shrimp Coctail (+$10)', 'Stuffed Mushrooms', 'Swedish Meatballs',
 ];
 
 let salads=[
