@@ -11,5 +11,14 @@
     border-radius: 10px;
     background-color: black;
 }
-
+.item1{
+    transform: rotate(45deg) translate(7px, 6px);
+    
+}
+.item2{ 
+    opacity: 0;
+}
+.item3{
+    transform:rotate(-45deg) translate(7px, -6px);
+}
 

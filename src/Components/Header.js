@@ -2,6 +2,7 @@ import {Link} from 'react-router-dom';
 //import ReactDOM from 'react-dom';
 import '../css/header.css';
 import '../css/hamburger.css';
+import HamburgerOpen from './HamburgerOpen';
 import Hamburger from './Hamburger';
 import logo from '../Images/ablogoheader-02.png';
 import { Component } from 'react';
@@ -49,6 +50,7 @@ popupmenu = () =>{
 
 render(){
     const isDesktop = this.state.isDesktop;
+    const isOpen = this.state.isOpen;
         return(
             <div>
             {isDesktop ? (
@@ -63,7 +65,7 @@ render(){
                         <li><Link className='linkbutton' to='/contact' onClick={this.closeMenu}>Contact</Link></li>
                     </ul>
                     <div className='hamburger' onClick={this.popupmenu}>
-                        <Hamburger/>
+                        {isOpen ? (<HamburgerOpen/>) : (<Hamburger />)}
                     </div>
                 </div>
             </div>

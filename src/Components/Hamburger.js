@@ -6,9 +6,9 @@ export default function Hamburger(){
     return(
         <>
                 <div>
-                    <div className='item item1' />
-                    <div className='item item2' />
-                    <div className='item item3' />
+                    <div className='item' />
+                    <div className='item' />
+                    <div className='item' />
             </div>
         </>
 
