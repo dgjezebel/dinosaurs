@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import{ init } from '@emailjs/browser';
 import '../css/email.css'
-init("user_W7CsbdW7BGSlDGi4rbGca");
+init("user_f8e84941a63ab050c9e6fc5b6b5ddb78");
 
 export const ContactUs = () => {
   const form = useRef();
