@@ -2,10 +2,24 @@ import React from 'react';
 
 export default class Specials extends React.Component {
     render(){
-        return(
+        return(<>
             <div>
-                Page with coupons, weekly and monthly specials, holiday specials. All that good stuff.
+                <h2>Valentine Specials</h2>
             </div>
+            <div>
+                <ul>
+                    <li>
+                        Chocolate Covered Strawberries
+                    </li>
+                    <li>
+                        Red Velvet Cake
+                    </li>
+                    <li>
+
+                    </li>
+                </ul>
+            </div>
+        </>
         )
 
     }
