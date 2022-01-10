@@ -1,32 +1,22 @@
-.menudiv{
+.specialsdiv{
     max-width: 600px;
     text-align: center;
     margin: auto;
 }
-p{
-    text-align: center;
-    margin: auto;
+
+.specials{
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 0;
     font-size: 1.2em;
 }
-h3{
-    text-align: center;
-}
-.menu{
-font-size: 1.2em;
-list-style-type: none;
--webkit-columns: 2;
--moz-columns: 2;
-columns: 2;
-list-style-position: inside;
-padding-left: 0;
-}
-.menuLi{
+.specialsLi{
     float: left;
     width: 100%;
     text-align: center;
 }
 @media screen and (max-width: 500px){
-    .menu{
+    .specials{
         display: flex;
         flex-direction: column;
         list-style-position: inside;

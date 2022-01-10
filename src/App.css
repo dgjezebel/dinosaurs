@@ -2,6 +2,12 @@ html, body{
     width: 100%;
     margin: 0;
     padding:0;
-    overflow-x: hidden; 
-    
+    overflow-x: hidden;
+  }
+  .content-container {
+    min-height: calc(100vh - 100px);
+  }
+  .footer--pin {
+    position: relative;
+    bottom: 0;
   }

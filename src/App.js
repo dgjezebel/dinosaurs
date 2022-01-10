@@ -8,11 +8,13 @@ import Contact from './Pages/Contact';
 import Header from "./Components/Header";
 import Specials from "./Pages/Specials";
 import Downloads from "./Pages/Downloads";
+import Footer from "./Components/Footer";
 
 export default function App(){
 
     return (
-      <div>
+      <>
+      <div className="content-container"> 
         <Header />
           <Routes>
             <Route path="/" element={<SiteHolder />} />
@@ -23,5 +25,9 @@ export default function App(){
           <Route path="/downloads" element={<Downloads />} />
           </Routes>
       </div>
+      <footer className="footer--pin">
+          <Footer />
+      </footer>
+      </>
   );
   }

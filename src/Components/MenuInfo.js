@@ -7,8 +7,8 @@ export default class MenuInfo extends Component{
            const items = data;
            const listitem = items.map((data) =>
            
-           <li key={data}>{data}</li>);
-           return(<ul>{listitem}</ul>)
+           <li  classNam='menuLi' key={data}>{data}</li>);
+           return(<ul className='menu'>{listitem}</ul>)
        }
         return(
         <div className='menudiv'>
