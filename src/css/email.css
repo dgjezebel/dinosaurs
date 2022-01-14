@@ -1,14 +1,25 @@
+.contactDiv{
+    display: flex;
+    flex-direction: column;
+
+}
+.contactGreeting{
+    margin: auto;
+    margin-top: 40px;
+    max-width: 400px;
+}
+.contactGreeting p{
+    text-align: justify;
+    margin: 10px;
+}
 .formholder{
     display:flex;
 	justify-content: center;
     align-items: center;
-    height: 80vh;
 }  
 form{
     display: flex;
     flex-direction: column;
-    margin: auto;
-   
 }
 input{
     font-size: 15px;
