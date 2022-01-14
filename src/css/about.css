@@ -1,0 +1,11 @@
+.aboutDiv{
+    max-width:600px;
+    text-align: center;
+    margin: 100px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.letter h2{
+    text-align: left;
+    font-weight: normal;
+}
