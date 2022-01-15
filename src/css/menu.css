@@ -1,5 +1,5 @@
 .menuBackground{
-    background-image: url('../Images/image1.jpg');
+    background-image: url('../Images/menuimage.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: top;
@@ -37,10 +37,14 @@ padding-left: 0;
     width: 100%;
     text-align: center;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 700px){
     .menu{
         display: flex;
         flex-direction: column;
         list-style-position: inside;
         }
+        .menuBackground{
+            background-image: #F4F3F1;
+        }
+        
 }

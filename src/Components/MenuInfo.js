@@ -12,6 +12,7 @@ export default class MenuInfo extends Component{
        }
         return(
         <div className='menudiv'>
+            <h1>MENU</h1>
             <div>
                 <h2>Appetizers</h2>
                 <p>Half pan serves 8-12  $40 | Whole pan serves 20-25  $80</p>
