@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto;
 }
 .image{
     width: 210px;

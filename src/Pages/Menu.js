@@ -5,7 +5,7 @@ import '../css/menu.css'
 export default class Menu extends React.Component {
     render(){
         return(
-            <div>
+            <div className='menuBackground'>
             <div><MenuInfo /></div>
             </div>
         )

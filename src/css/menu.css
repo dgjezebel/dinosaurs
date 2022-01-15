@@ -1,3 +1,12 @@
+.menuBackground{
+    background-image: url('../Images/image1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding: 20px;
+    
+}
 .menudiv{
     max-width: 600px;
     text-align: center;
@@ -10,6 +19,9 @@ p{
 }
 h3{
     text-align: center;
+}
+.menudiv h2{
+    margin: 0;
 }
 .menu{
 font-size: 1.2em;
