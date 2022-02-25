@@ -59,7 +59,13 @@ export default class MenuInfo extends Component{
                 <p>Chocolate | Vanilla</p>
                 <br/>
                 <h3>8" Cakes  $25</h3>
-                    {list(cakes)}
+                <p>Vanilla | Chocolate | Carrot</p>
+                <h3>Cheesecakes</h3>
+                <p>8" Cheesecake: Plain, Strawberry, or Cherry $25</p>
+                <br/>
+                <p>Individual 4oz CHeesecakes</p>
+                <p>Strawberry topping included on the side</p>
+                <p> 1- $4 | 10 - $35 | 20 - $60</p>
                 <h3>Pies</h3>
                 <p>8"  $10 | 10"  $14</p>
                 {list(pies)}
