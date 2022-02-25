@@ -1,3 +1,6 @@
+.specialsDiv{
+    min-height: 100vh;
+}
 .specialsdiv{
     max-width: 1000px;
     text-align: center;

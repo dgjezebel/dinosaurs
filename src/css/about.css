@@ -1,4 +1,5 @@
 .aboutDiv{
+    min-height: 100vh;
     max-width:600px;
     text-align: center;
     margin: 100px auto;

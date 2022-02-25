@@ -1,5 +1,5 @@
 .footerDiv{
-    height: 40px;
+    
     align-content: center;  
 }
 .footer{
@@ -8,4 +8,5 @@
     position: absolute;
     bottom: 0;
     right: 0;
+    height: 40px;
 }
