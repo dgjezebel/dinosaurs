@@ -7,7 +7,7 @@ import Menu from './Pages/Menu';
 import Contact from './Pages/Contact';
 import Header from "./Components/Header";
 import Specials from "./Pages/Specials";
-import Downloads from "./Pages/Downloads";
+
 import Footer from "./Components/Footer";
 
 export default function App(){
@@ -17,8 +17,8 @@ export default function App(){
       <div className="content-container"> 
         <Header />
           <Routes>
-            <Route path="/" element={<SiteHolder />} />
-            <Route path="/menu" element={<Menu />} />
+            <Route exact path="/" element={<SiteHolder />}/>
+            <Route path="/menu" element={<Menu />}/>
             <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/specials" element={<Specials />} />
