@@ -24,7 +24,7 @@ export default function SiteHolder(){
                 </h2>
             </div>
         </div>
-            <div className='buttoncenter'><Link to='/specials'className='menuButton'>Check out our Specials!!!</Link></div>
+            <div className='buttoncenter'><Link to='/menu'className='menuButton'>Check out our Menu!!!</Link></div>
         </div>
     )
 }
