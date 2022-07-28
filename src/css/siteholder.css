@@ -37,6 +37,13 @@ h1{
 h2{
     text-align: center;
 }
+.medialinks{
+    text-align: center;
+}
+.medialinks img{
+    width: 100px;
+    padding: 10px;
+}
 @media all and (max-width: 600px) {
     .siteholderimg{
         max-width: 300px;
