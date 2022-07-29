@@ -8,8 +8,6 @@ import Contact from './Pages/Contact';
 import Header from "./Components/Header";
 import Specials from "./Pages/Specials";
 
-import Footer from "./Components/Footer";
-
 export default function App(){
 
     return (
@@ -24,9 +22,6 @@ export default function App(){
           <Route path="/specials" element={<Specials />} />
           </Routes>
       </div>
-      <footer className="footer--pin">
-          <Footer />
-      </footer>
       </>
   );
   }

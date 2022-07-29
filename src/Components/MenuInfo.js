@@ -73,6 +73,7 @@ export default class MenuInfo extends Component{
                 <p>Special requests are welcome!</p>
                 <p>Vegetarian options available upon request</p>
                 <p>Menu prices subject to change</p>
+                <br/>
         </div>
     )}
 }

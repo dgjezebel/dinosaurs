@@ -31,7 +31,7 @@ export default function SiteHolder(){
             <div className='buttoncenter'>
                 <Link to='/menu'className='menuButton'>Check out our Menu!!!</Link>
             </div>
-            <h2>find us on Facebook and Instagram</h2>
+            <h2>Find us on Facebook and Instagram</h2>
             <div className='medialinks'>
                 <a href='https://facebook.com/abcatering028072' target="_blank" rel="noopener noreferrer"><img src={facebook} alt='facebook link'/></a>
                 <a href='https://instagram.com/abcatering028072' target="_blank" rel="noopener noreferrer"><img src={insta} alt='instagram link'/></a>
