@@ -52,7 +52,7 @@ h2{
 @media all and (max-width: 650px) {
     .siteholderimg{
         max-width: 250px;
-        padding: 0px;
+        margin: 0px;
     }
     .content{
         flex-direction: column;
