@@ -49,6 +49,10 @@ h2{
     padding: 10px;
     padding-bottom: 20px;
 }
+.telnumber{
+    text-decoration: none;
+    color: black;
+}
 @media all and (max-width: 650px) {
     .siteholderimg{
         max-width: 250px;

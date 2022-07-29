@@ -21,7 +21,7 @@ export default function SiteHolder(){
                         Now serving Philadelphia and the Tri-State area!
                         </h2>
                     <h2>
-                        Phone number: (215) 792-2197
+                        <a href="tel:(215) 792-2197" className='telnumber'>Phone number: (215) 792-2197</a>
                         <br/>
                         Email: customerservice@ab-catering.com
                     </h2>
