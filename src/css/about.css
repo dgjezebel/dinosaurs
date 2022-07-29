@@ -2,11 +2,16 @@
     min-height: 100vh;
     max-width:600px;
     text-align: center;
-    margin: 100px auto;
+    margin: 50px auto;
     padding-left: 20px;
     padding-right: 20px;
 }
 .letter h2{
     text-align: left;
     font-weight: normal;
+}
+@media all and (max-width: 650px) {
+    .aboutDiv{
+        margin: 25px auto;
+    }
 }

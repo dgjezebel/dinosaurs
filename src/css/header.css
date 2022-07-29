@@ -59,5 +59,10 @@
     .navigation{
         max-width: 80px;
     }
-    
+    .navigation ul li{
+        font-size: 25px;
+        padding:30px; 
+        border-style: solid none solid none;   
+        border-color: rgb(230, 230, 230);
+    }
 }
