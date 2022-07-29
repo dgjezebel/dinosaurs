@@ -13,9 +13,11 @@ export default class MenuInfo extends Component{
         return(
         <div className='menudiv'>
             <h1>MENU</h1>
+            <p>Half pans serve 8-12 | Whole pans serve 20-25</p>
+            <br/>
             <div>
                 <h2>Appetizers</h2>
-                <p>Half pan serves 8-12  $40 | Whole pan serves 20-25  $80</p>
+                <p>Half pan $40 | Whole pan $80</p>
                 <p>*served with marinara</p>
                 <br/>
                 {list(appetizers)}
@@ -23,7 +25,7 @@ export default class MenuInfo extends Component{
             
             <div>
                 <h2>Salads</h2>
-                <p>Half pan serves 8-12  $35 | Whole pan serves 20-25  $70</p>
+                <p>Half pan $35 | Whole pan $70</p>
                 <p>*Choice of Dressing on the side</p>
                 <br/>
                 {list(salads)}
@@ -31,21 +33,21 @@ export default class MenuInfo extends Component{
             
             <div>
                 <h2>Entrees</h2>
-                <p>Half pan serves 8-12  $45 | Whole pan serves 20-25  $85</p>
+                <p>Half pan $45 | Whole pan $85</p>
                 <br/>
                 {list(entrees)}
             </div>
             
             <div>
                 <h2>Sides</h2>
-                <p>Half pan serves 8-12  $35 | Whole pan serves 20-25  $70</p>
+                <p>Half pan $35 | Whole pan  $70</p>
                 <br/>
                 {list(sides)}
             </div>
            
             <div>
                 <h2>Big Kids Menu</h2>
-                <p>Half pan serves 8-12  $35 | Whole pan serves 20-25  $70</p>
+                <p>Half pan $35 | Whole pan $70</p>
                 <br/>
                 {list(kids)}
             </div>
