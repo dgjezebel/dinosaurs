@@ -17,7 +17,7 @@
 
 }
 .center{
-    margin-top: 50px;
+    margin-top: 20px;
     justify-content: center;
     margin-left: 10px;
     margin-right: 10px;
@@ -43,12 +43,21 @@ h2{
 .medialinks img{
     width: 100px;
     padding: 10px;
+    padding-bottom: 20px;
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 650px) {
     .siteholderimg{
-        max-width: 300px;
+        max-width: 250px;
+        padding-bottom: 0px;
     }
     .content{
         flex-direction: column;
+        
+    }
+    .center{
+        margin-top: 0px;
+    }
+    h2{
+        font-size: 20px;
     }
 }
