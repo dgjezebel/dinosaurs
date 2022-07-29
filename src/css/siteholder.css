@@ -52,7 +52,7 @@ h2{
 @media all and (max-width: 650px) {
     .siteholderimg{
         max-width: 250px;
-        padding-bottom: 0px;
+        padding: 0px;
     }
     .content{
         flex-direction: column;
@@ -63,5 +63,14 @@ h2{
     }
     h2{
         font-size: 20px;
+    }
+    .medialinks img{
+        width: 75px;
+    }
+}
+@media all and (max-width: 400px) {
+    .menuButton{
+        font-size: 20px;
+
     }
 }
