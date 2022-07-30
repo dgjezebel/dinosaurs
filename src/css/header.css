@@ -62,7 +62,7 @@
     .navigation ul li{
         font-size: 25px;
         padding:30px; 
-        border-style: solid none solid none;   
+        border-style: none none solid none;   
         border-color: rgb(230, 230, 230);
     }
 }
