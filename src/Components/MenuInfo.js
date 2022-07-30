@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { appetizers, salads, entrees, sides, kids, cakes, pies  } from './menuDataBase';
+import { appetizers, salads, entrees, sides, kids  } from './menuDataBase';
 
 export default class MenuInfo extends Component{
     render(){
