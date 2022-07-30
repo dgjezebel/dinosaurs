@@ -11,7 +11,7 @@
 }
 .siteholderimg{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 25px;
     max-width: 400px;
     height: auto;
 
@@ -24,9 +24,9 @@
 }
 .menuButton{
     text-decoration: none;
-    color: #f4671f;
+    color: #0091d4;
     border-style: solid;
-    border-color: #f4671f;
+    border-color: #0091d4;
     font-size: 30px;
     padding: 5px 10px 5px 10px;
 }
@@ -69,7 +69,7 @@ h2{
         font-size: 20px;
     }
     .medialinks img{
-        width: 75px;
+        width: 60px;
     }
 }
 @media all and (max-width: 400px) {
