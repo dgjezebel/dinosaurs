@@ -18,7 +18,7 @@ export default function SiteHolder(){
                     </h1>
                     
                     <h2>
-                        Serving the Philadelphia and Tri-State area!
+                        Serving Philadelphia and New Jersey!
                         </h2>
                     <h2>
                         Email: customerservice@ab-catering.com
