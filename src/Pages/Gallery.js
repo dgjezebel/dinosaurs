@@ -9,6 +9,14 @@ export default class Gallery extends React.Component {
                 <img className='galleryimage' src={images[1]}/>
                 <img className='galleryimage' src={images[2]}/>
                 <img className='galleryimage' src={images[3]}/>
+                <img className='galleryimage' src={images[4]}/>
+                <img className='galleryimage' src={images[5]}/>
+                <img className='galleryimage' src={images[6]}/>
+                <img className='galleryimage' src={images[8]}/>
+                <img className='galleryimage' src={images[7]}/>
+                <img className='galleryimage' src={images[9]}/>
+                <img className='galleryimage' src={images[10]}/>
+                <img className='galleryimage' src={images[11]}/>
             </div>
         )
 
