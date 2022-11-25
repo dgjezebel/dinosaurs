@@ -21,10 +21,11 @@ export default function SiteHolder(){
                         Serving Philadelphia and New Jersey!
                         </h2>
                     <h2>
-                        Email: customerservice@ab-catering.com
+                    Email: <a href="mailto:customerservice@ab-catering.com">customerservice@ab-catering.com</a>
+                         
                     </h2>
                     <h2>
-                        <a href="tel:215-792-2197" className='telnumber'>Phone number: (215) 792-2197</a>
+                        Phone number: <a href="tel:215-792-2197" >(215) 792-2197</a>
                         <br/>
                     </h2>
                     
