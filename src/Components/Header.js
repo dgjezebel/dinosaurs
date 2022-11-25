@@ -61,6 +61,7 @@ render(){
                         <li><Link className='linkbutton' to='/menu'  onClick={this.closeMenu}>Our Menu</Link></li>
                         <li><Link className='linkbutton' to='/about' onClick={this.closeMenu}>About</Link></li>
                         <li><Link className='linkbutton' to='/specials' onClick={this.closeMenu}>Specials</Link></li>
+                        <li><Link className='linkbutton' to='/gallery' onClick={this.closeMenu}>Gallery</Link></li>
                         <li><Link className='linkbutton' to='/contact' onClick={this.closeMenu}>Contact</Link></li>
                     </ul>
                     <div className='hamburger' onClick={this.popupmenu}>
@@ -75,6 +76,7 @@ render(){
                 <ul>
                     <li ><Link className='linkbutton' to='/menu' >Our Menu</Link></li>
                     <li><Link className='linkbutton' to='/specials' onClick={this.closeMenu}>Specials</Link></li>
+                    <li><Link className='linkbutton' to='/gallery' onClick={this.closeMenu}>Gallery</Link></li>
                     <li><Link className='linkbutton' to='/about'>About</Link></li>
                     <li><Link className='linkbutton' to='/contact'>Contact</Link></li>
                 </ul>

@@ -5,6 +5,7 @@ import SiteHolder from './Pages/SiteHolder';
 import About from './Pages/About';
 import Menu from './Pages/Menu';
 import Contact from './Pages/Contact';
+import Gallery from './Pages/Gallery';
 import Header from "./Components/Header";
 import Specials from "./Pages/Specials";
 
@@ -20,6 +21,7 @@ export default function App(){
             <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/specials" element={<Specials />} />
+          <Route path="/gallery" element={<Gallery />} />
           </Routes>
       </div>
       </>
