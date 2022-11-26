@@ -37,7 +37,6 @@ export default function SiteHolder(){
             <div className='medialinks'>
                 <a href='https://facebook.com/abcatering028072' target="_blank" rel="noopener noreferrer"><img src={facebook} alt='facebook link'/></a>
                 <a href='https://instagram.com/abcatering028072' target="_blank" rel="noopener noreferrer"><img src={insta} alt='instagram link'/></a>
-                <a href="tel:215-792-2197" target="_blank" rel="noopener noreferrer"><img src={phone} alt='instagram link'/></a>
             </div>
 
         </div>

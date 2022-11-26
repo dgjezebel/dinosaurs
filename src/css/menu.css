@@ -1,17 +1,14 @@
-/*
+
 .menuBackground{
-    background-image: url('../Images/menuimage.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    padding: 20px;
+    background-image: linear-gradient(to right,rgb(200, 227, 255),rgb(255, 255, 255),rgb(255, 255, 255),rgb(200, 227, 255));
 }
-*/
+
 .menudiv{
     max-width: 600px;
     text-align: center;
     margin: auto;
+    padding-top: 10px;
+    
 }
 p{
     text-align: center;
