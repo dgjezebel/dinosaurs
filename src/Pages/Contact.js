@@ -8,8 +8,8 @@ export default class Contact extends React.Component {
         <div className='height'>
             <div className='contactDiv'>
                 <div className='contactGreeting'>
-                    <p>Phone number: <a href="tel:215-792-2197" >(215) 792-2197</a></p>
-                    <p>Email: <a href="mailto:customerservice@ab-catering.com">customerservice@ab-catering.com</a></p>
+                    <p>Phone number:<a href="tel:215-792-2197" >(215) 792-2197</a></p>
+                    <p>Email:<a href="mailto:customerservice@ab-catering.com">customerservice@ab-catering.com</a></p>
                     <br/>
                     <p>
                     Feel free to send 
