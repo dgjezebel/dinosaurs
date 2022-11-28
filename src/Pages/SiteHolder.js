@@ -4,29 +4,19 @@ import '../css/siteholder.css'
 import { Link } from 'react-router-dom';
 import facebook from '../Images/fbook.png'
 import insta from '../Images/instagram.png'
-import phone from '../Images/phone.png'
 
 export default function SiteHolder(){
     return(
         <div className="contentDiv">
             <div className='content'>
                 <img className='siteholderimg' src={ablogo} alt='ab catering logo'></img>
-                
-                <div className='center'>
-                    <h1>
-                        We Deliver!
-                    </h1>
-                    
+                <div className='center'> 
                     <h2>
                         Serving Philadelphia and New Jersey!
                         </h2>
-                    <h2>
-                    Email: <a href="mailto:customerservice@ab-catering.com">customerservice@ab-catering.com</a>
-                         
-                    </h2>
-                    <h2>
-                        Phone number: <a href="tel:215-792-2197" >(215) 792-2197</a>
-                        <br/>
+             
+                    <h2 className='textalign'>
+                    Our mission is to bring you the best homestyle cooking right to your table. We use only the freshest ingredients, and we add a little bit of love to everything we bake.
                     </h2>
                     
                 </div>

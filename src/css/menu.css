@@ -1,6 +1,6 @@
 
 .menuBackground{
-    background-image: linear-gradient(to right,rgb(200, 227, 255),rgb(255, 255, 255),rgb(255, 255, 255),rgb(200, 227, 255));
+    background-image: linear-gradient(to top,#ffffff00, #ffffff),linear-gradient(to right,rgb(140, 196, 255),rgb(255, 255, 255),rgb(255, 255, 255),rgb(140, 196, 255));
 }
 
 .menudiv{

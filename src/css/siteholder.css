@@ -1,5 +1,8 @@
 .contentDiv{
     min-height: 100vh;
+    background: linear-gradient(to top, #ffffffcb, #ffffff), url('../Images/background.jpg');
+    background-position: bottom;
+    background-size: cover
 }
 .content{
     display: flex;
@@ -24,9 +27,10 @@
 }
 .menuButton{
     text-decoration: none;
-    color: #0091d4;
+    color: #00608d;
+    background-color: white;
     border-style: solid;
-    border-color: #0091d4;
+    border-color: #000000;
     font-size: 30px;
     padding: 5px 10px 5px 10px;
 }
@@ -40,6 +44,9 @@ h1{
 }
 h2{
     text-align: center;
+}
+.textalign{
+    text-align: justify;
 }
 .medialinks{
     text-align: center;
