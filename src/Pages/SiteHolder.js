@@ -1,5 +1,5 @@
 import React from 'react';
-import ablogo from '../Images/ablogo.svg'
+import ablogo from '../Images/ablogo.png'
 import '../css/siteholder.css'
 import { Link } from 'react-router-dom';
 import facebook from '../Images/fbook.png'

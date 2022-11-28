@@ -20,19 +20,16 @@ open = () => {
     })
 }
 closeMenu = () =>{
-    console.log('clicked')
     this.setState({
         display:'none',
         isOpen:false,
         
     })
-    console.log(this.state)
 }
 popupmenu = () =>{
     this.setState({ 
         isOpen:!this.state.isOpen,  
     }, () => this.open())
-    console.log(this.state)
     this.updatePredicate = this.updatePredicate.bind(this);}
   
   componentDidMount() {
