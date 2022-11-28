@@ -12,9 +12,16 @@ import image11 from '../GalleryImages/image11.png'
 import image12 from '../GalleryImages/image12.png'
 import image13 from '../GalleryImages/image13.png'
 import image14 from '../GalleryImages/image14.png'
+import image15 from '../GalleryImages/image15.png'
+import image16 from '../GalleryImages/image16.png'
+import image17 from '../GalleryImages/image17.png'
+import image18 from '../GalleryImages/image18.png'
+import image19 from '../GalleryImages/image19.png'
+import image20 from '../GalleryImages/image20.png'
 let images = [
 image1, image2, image3, image4, image5, image6, 
-image7, image8, image9, image10, image11, image12, image13, image14
+image7, image8, image9, image10, image11, image12, 
+image13, image14, image15, image16, image17, image18, image19, image20
 ]
 
 export {images}
