@@ -1,6 +1,6 @@
 .contentDiv{
     min-height: 100vh;
-    background: linear-gradient(to top, #ffffffcb, #ffffff), url('../Images/background.jpg');
+    background: linear-gradient(to top, #ffffffc6, #ffffff), url('../Images/background.jpg');
     background-position: bottom;
     background-size: cover
 }
@@ -83,6 +83,11 @@ h2{
 @media all and (max-width: 400px) {
     .menuButton{
         font-size: 20px;
-
+    }
+    .contentDiv{
+        min-height: 100vh;
+        background: linear-gradient(to top, #ffffffc6, #ffffff), url('../Images/background.jpg');
+        background-position: right;
+        background-size: cover
     }
 }
