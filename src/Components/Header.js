@@ -11,24 +11,29 @@ export default class Header extends Component{
     state={
         isOpen:false,
         display:'none',
-        isDesktop: false
+        isDesktop: false,
+        body:document.body.style.overflow = ""
+        
     }
 
 open = () => {
     this.setState({
-        display:this.state.isOpen ? 'inline': 'none'
+        display:this.state.isOpen ? 'inline': 'none',
     })
 }
 closeMenu = () =>{
+    
     this.setState({
         display:'none',
         isOpen:false,
-        
+        body:document.body.style.overflow = ""
     })
 }
 popupmenu = () =>{
+    
     this.setState({ 
-        isOpen:!this.state.isOpen,  
+        isOpen:!this.state.isOpen, 
+        body:this.state.isOpen ? document.body.style.overflow = "": document.body.style.overflow = "hidden",
     }, () => this.open())
     this.updatePredicate = this.updatePredicate.bind(this);}
   
