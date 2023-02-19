@@ -1,0 +1,50 @@
+
+.foodtruckBackground{
+    background-image: linear-gradient(to top,#84cef4, #ffffff);
+    height: 100vh;
+    padding: 10px;
+}
+
+.foodtruckdiv{
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    
+}
+p{
+    text-align: center;
+    margin: auto;
+    font-size: 1.2em;
+}
+h3{
+    text-align: center;
+}
+.menudiv h2{
+    margin: 0;
+}
+.menu{
+font-size: 1.2em;
+list-style-type: none;
+-webkit-columns: 2;
+-moz-columns: 2;
+columns: 2;
+list-style-position: inside;
+padding-left: 0;
+}
+.menuLi{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+@media screen and (max-width: 700px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        list-style-position: inside;
+        }
+        .menuBackground{
+            background-image: #F4F3F1;
+        }
+        
+}

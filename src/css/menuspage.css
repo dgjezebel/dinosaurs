@@ -1,11 +1,12 @@
-.galleryDiv{
+.menuDiv{
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-  justify-content: center;
-  background-color: #ffffff;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 75vh;
+    background-color: #ffffff;
 }
-.galleryimage{
+.menuimage{
     height: 400px;
     width: 400px;
     margin: 10px;
@@ -14,9 +15,8 @@
     border-width: .5px;
     border-color: rgb(142, 142, 142);
 }
-
 @media screen and (max-width: 500px){
-    .galleryimage{
+    .menuimage{
         height: 300px;
         width: 300px;
         

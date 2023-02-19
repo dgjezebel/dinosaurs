@@ -23,7 +23,7 @@ export default function SiteHolder(){
                 </div>
             </div>
             <div className='buttoncenter'>
-                <Link to='/Menu'className='menuButton'>Check out our Menu!</Link>
+                <Link to='/MenusPage'className='menuButton'>Check out our Menu!</Link>
             </div>
             <div className='medialinks'>
                 <a href='https://facebook.com/abcatering028072' target="_blank" rel="noopener noreferrer"><img src={facebook} alt='facebook link'/></a>

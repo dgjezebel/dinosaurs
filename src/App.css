@@ -4,6 +4,7 @@ html, body{
     padding:0;
     overflow-x: hidden;
     overscroll-behavior: contain;
+    background-color: #ffffff;
   }
   .content-container {
     min-height: calc(100vh - 100px);

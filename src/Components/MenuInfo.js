@@ -12,7 +12,7 @@ export default class MenuInfo extends Component{
        }
         return(
         <div className='menudiv'>
-            <h1>MENU</h1>
+            <h1>CATERING MENU</h1>
             <p>Half pans serve 8-12 | Whole pans serve 20-25</p>
             <br/>
             <div>
