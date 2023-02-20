@@ -35,7 +35,7 @@ input{
     border-width:0 0 1px 0; 
     height: 30px;
     border-radius: 2px;
-    box-shadow: 5px 5px 10px rgb(128, 128, 128);
+    box-shadow: 3px 3px 5px rgb(128, 128, 128);
     width: 300px;
 }
 .inputs:focus{
@@ -47,7 +47,7 @@ input{
 
 textarea{
     background: rgb(255, 255, 255);
-    box-shadow: 5px 5px 10px rgb(128, 128, 128);
+    box-shadow: 3px 3px 5px rgb(128, 128, 128);
     border: none;
     outline: none;
     border-radius: 7px;
@@ -74,7 +74,7 @@ textarea:focus{
     width: 100px;
     height: 25px;
     padding: 0;
-    box-shadow: 5px 5px 10px rgb(128, 128, 128);
+    box-shadow: 3px 3px 5px rgb(128, 128, 128);
 }
 
 @media all and (max-width: 500px){
