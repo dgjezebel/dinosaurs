@@ -1,10 +1,11 @@
 .menuDiv{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 100px;
     justify-content: center;
     height: 100vh;
     background-color: #ffffff;
-    background: linear-gradient(to top, #ffffffc6, #ffffff), url('../Images/background.jpg');
+    background: linear-gradient(to top, #ffffffdd, #ffffff), url('../Images/background.jpg');
     background-position: bottom;
     background-size: cover
 }
@@ -13,16 +14,18 @@
     width: 400px;
     margin: 60px 30px 30px 30px;
     object-fit: cover;
-    border-radius:50%;
-    box-shadow: 5px 5px 10px rgb(79, 79, 79);
+    border-radius:10px;
+    box-shadow: 3px 3px 5px rgb(79, 79, 79);
 }
 .menuimage:hover{
-    box-shadow: 5px 5px 10px rgb(255, 194, 62);
+    box-shadow: 5px 5px 10px rgb(62, 62, 62);
 }
 @media screen and (max-width: 500px){
     .menuimage{
         height: 300px;
         width: 300px;
     }
-        
+    .menuDiv{
+        margin-top: 0px;
+    }      
 }
