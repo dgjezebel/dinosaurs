@@ -1,6 +1,8 @@
 .specialsDiv{
     min-height: 100vh;
-    background-color: #ffffff;
+    background: linear-gradient(to top, #ffffffc6, #ffffff), url('../Images/background.jpg');
+    background-position: bottom;
+    background-size: cover
 }
 .specialsdiv{
     max-width: 1000px;

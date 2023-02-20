@@ -15,8 +15,11 @@
 .siteholderimg{
     width: 100%;
     margin-top: 25px;
+    margin-bottom: 25px;
     max-width: 400px;
     height: auto;
+    border-radius:50%;
+    box-shadow: 5px 5px 10px rgb(128, 128, 128);
 
 }
 .center{
@@ -33,6 +36,7 @@
     border-color: #000000;
     font-size: 30px;
     padding: 5px 10px 5px 10px;
+    box-shadow: 5px 5px 10px rgb(128, 128, 128);
 }
 .buttoncenter{
     text-align: center;
@@ -64,7 +68,7 @@ h2{
 @media all and (max-width: 650px) {
     .siteholderimg{
         max-width: 250px;
-        margin: 0px;
+        margin-bottom: 15px;
     }
     .content{
         flex-direction: column;

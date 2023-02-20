@@ -4,6 +4,7 @@ import '../css/about.css'
 export default class Menu extends React.Component {
     render(){
         return(
+            <div className='aboutbackground'>
             <div className='aboutDiv'>
                 <div className='letter'>
                     <h2>
@@ -22,6 +23,7 @@ export default class Menu extends React.Component {
                         -sincerely, Al and Brandy.
                     </h2>
                 </div>
+            </div>
             </div>
         )
 

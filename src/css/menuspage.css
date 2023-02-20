@@ -1,25 +1,28 @@
 .menuDiv{
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    height: 75vh;
+    height: 100vh;
     background-color: #ffffff;
+    background: linear-gradient(to top, #ffffffc6, #ffffff), url('../Images/background.jpg');
+    background-position: bottom;
+    background-size: cover
 }
 .menuimage{
     height: 400px;
     width: 400px;
-    margin: 10px;
+    margin: 60px 30px 30px 30px;
     object-fit: cover;
-    border-style: solid;
-    border-width: .5px;
-    border-color: rgb(142, 142, 142);
+    border-radius:50%;
+    box-shadow: 5px 5px 10px rgb(79, 79, 79);
+}
+.menuimage:hover{
+    box-shadow: 5px 5px 10px rgb(255, 194, 62);
 }
 @media screen and (max-width: 500px){
     .menuimage{
         height: 300px;
         width: 300px;
-        
     }
         
 }

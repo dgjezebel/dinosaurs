@@ -1,3 +1,9 @@
+.aboutbackground{
+    background: linear-gradient(to top, #ffffffc6, #ffffff), url('../Images/background.jpg');
+    background-position: bottom;
+    background-size: cover
+}
+
 .aboutDiv{
     min-height: 100vh;
     max-width:600px;

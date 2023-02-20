@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa0b0ea1.css",
-    "main.js": "/static/js/main.a62b92e0.js",
+    "main.css": "/static/css/main.0349c3d0.css",
+    "main.js": "/static/js/main.eb77c070.js",
     "static/media/image1.png": "/static/media/image1.52b381f38f3870a2b28b.png",
     "static/media/background.jpg": "/static/media/background.0d77d6cbb45d8af99d63.jpg",
     "static/media/image3.png": "/static/media/image3.7d2f4c0e9bdba6eaa8c2.png",
@@ -23,17 +23,17 @@
     "static/media/image8.png": "/static/media/image8.76b87f54c8339e4038aa.png",
     "static/media/image6.png": "/static/media/image6.00c6416bd94962023222.png",
     "static/media/image4.png": "/static/media/image4.c7c8c4495c5b2e0be5f2.png",
-    "static/media/catering.jpg": "/static/media/catering.d889de28365a92b58b9c.jpg",
-    "static/media/foodcart.jpg": "/static/media/foodcart.bbd6459dd7d625b2bbc0.jpg",
+    "static/media/catering.jpg": "/static/media/catering.383af5419ef41596e326.jpg",
     "static/media/ablogo.png": "/static/media/ablogo.935510376e89a86303a2.png",
+    "static/media/foodcart.jpg": "/static/media/foodcart.c872022cb55b6f06a8dd.jpg",
     "static/media/instagram.png": "/static/media/instagram.29dac7bb4c60e9370fae.png",
     "static/media/fbook.png": "/static/media/fbook.29e4814fe2fc771f82d5.png",
     "index.html": "/index.html",
-    "main.fa0b0ea1.css.map": "/static/css/main.fa0b0ea1.css.map",
-    "main.a62b92e0.js.map": "/static/js/main.a62b92e0.js.map"
+    "main.0349c3d0.css.map": "/static/css/main.0349c3d0.css.map",
+    "main.eb77c070.js.map": "/static/js/main.eb77c070.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa0b0ea1.css",
-    "static/js/main.a62b92e0.js"
+    "static/css/main.0349c3d0.css",
+    "static/js/main.eb77c070.js"
   ]
 }

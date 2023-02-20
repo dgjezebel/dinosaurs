@@ -74,9 +74,9 @@ render(){
                     <ul style={{display:this.state.display}}>
                         <li> <Link className='linkbutton' to='' onClick={this.twoMenus}>Menus </Link></li>
                         {this.state.menusOpen? (
-                            <li><Link className='linkbutton' to='/menu' onClick={this.closeMenu}>Catering Menu</Link></li>):('')}
+                            <li><Link className='linkbutton color' to='/menu' onClick={this.closeMenu}>Catering Menu</Link></li>):('')}
                             {this.state.menusOpen? (
-                            <li><Link className='linkbutton' to='/foodtruck' onClick={this.closeMenu}>Food Truck Menu</Link></li>):('')}
+                            <li><Link className='linkbutton color' to='/foodtruck' onClick={this.closeMenu}>Food Truck Menu</Link></li>):('')}
                         <li><Link className='linkbutton' to='/gallery' onClick={this.closeMenu}>Gallery</Link></li>
                         <li><Link className='linkbutton' to='/specials' onClick={this.closeMenu}>Specials</Link></li>
                         <li><Link className='linkbutton' to='/about' onClick={this.closeMenu}>About</Link></li>

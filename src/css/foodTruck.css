@@ -1,15 +1,14 @@
 
 .foodtruckBackground{
     background-image: linear-gradient(to top,#84cef4, #ffffff);
-    height: 100vh;
-    padding: 10px;
+    padding: 20px;
+    padding-bottom: 40px;
 }
 
 .foodtruckdiv{
     max-width: 600px;
     text-align: center;
-    margin: auto;
-    padding: 10px;
+
     
 }
 p{
@@ -19,24 +18,12 @@ p{
 }
 h3{
     text-align: center;
+    margin: 20px;
 }
 .menudiv h2{
     margin: 0;
 }
-.menu{
-font-size: 1.2em;
-list-style-type: none;
--webkit-columns: 2;
--moz-columns: 2;
-columns: 2;
-list-style-position: inside;
-padding-left: 0;
-}
-.menuLi{
-    float: left;
-    width: 100%;
-    text-align: center;
-}
+
 @media screen and (max-width: 700px){
     .menu{
         display: flex;
