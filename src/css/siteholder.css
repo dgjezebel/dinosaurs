@@ -58,8 +58,10 @@ h2{
 }
 .medialinks img{
     width: 100px;
-    padding: 10px;
-    padding-bottom: 20px;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 22px;
+    box-shadow: 5px 5px 10px rgb(87, 87, 87);
 }
 .telnumber{
     text-decoration: none;
