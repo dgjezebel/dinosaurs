@@ -7,7 +7,8 @@ import MenusPage from './Pages/MenusPage';
 import Menu from './Pages/Menu';
 import Contact from './Pages/Contact';
 import Gallery from './Pages/Gallery';
-import FoodTruck from './Pages/FoodTruck';
+import SummerTruck from './Pages/SummerTruck';
+import WinterTruck from './Pages/WinterTruck';
 import Header from "./Components/Header";
 import Specials from "./Pages/Specials";
 
@@ -25,7 +26,8 @@ export default function App(){
             <Route path="/contact" element={<Contact />} />
             <Route path="/specials" element={<Specials />} />
             <Route path="/gallery" element={<Gallery />} />
-            <Route path="/foodtruck" element={<FoodTruck />}/>
+            <Route path="/summerfoodtruck" element={<SummerTruck />}/>
+            <Route path="/winterfoodtruck" element={<WinterTruck />}/>
           </Routes>
       </div>
       </>

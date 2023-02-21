@@ -3,12 +3,12 @@
     background-image: linear-gradient(to top,#84cef4, #ffffff);
     padding: 20px;
     padding-bottom: 40px;
+    min-height: 100vh;
 }
 
 .foodtruckdiv{
     max-width: 600px;
     text-align: center;
-
     
 }
 p{
