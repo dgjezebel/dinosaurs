@@ -5,6 +5,7 @@ export default class SummerTruck extends React.Component {
     render(){
         return(
             <div className='foodtruckBackground'>
+                <div className='foodtruckdiv'>
                 <h1>SUMMER FOOD TRUCK MENU</h1>
                 <br/>
                 <h2>BURGERS</h2>
@@ -44,6 +45,7 @@ export default class SummerTruck extends React.Component {
                 <br/>
                 <h2>BEVERAGES</h2>
                 <p>Soda / Water / Gatorade $2</p>
+            </div>
             </div>
         )
 
